@@ -1200,7 +1200,7 @@ export const EXERCISES = {
         description: 'You\'re a donkey, on your four limbs. Your owner is particularly annoying, standing directly behind you. With one leg, kick backwards and up as much as you can to teach them a lesson.',
         substitutes: ['cable kickbacks']
     },
-    good_girls: {
+    adductors: {
         type: 'accessory',
         meta: {
             environment: 'gym',
@@ -1209,7 +1209,7 @@ export const EXERCISES = {
         },
         unit: 'reps', //vs duration    
         muscles: ['glutes'],
-        description: 'On the good girls machine we learn to keep our legs closed. Seated, you want to bring your knees together.',
+        description: 'On the adductors machine we learn to keep our legs closed. Seated, you want to bring your knees together.',
         substitutes: ['cable kickbacks']
     },
     fire_hydrants: {
@@ -1236,7 +1236,7 @@ export const EXERCISES = {
         description: 'Lying flat on your back, drag your feet back towards your bum until your knees are bent at a 90 degree angle. With your feet still firm on the ground and touching, drop your knees to either side of your body. Now that you are in position, push down through the outsides of your feet so your bum and lower back lift off the ground. Pause while elevated, and then lower back down.',
         substitutes: ['cable kickbacks', 'fire hydrants']
     },
-    bad_girls: {
+    abductors: {
         type: 'accessory',
         meta: {
             environment: 'gymhome',
@@ -1245,7 +1245,7 @@ export const EXERCISES = {
         },
         unit: 'reps', //vs duration    
         muscles: ['glutes'],
-        description: 'On the bad girls machine, or with a band around your knees while sitting on a chair, we reject conservatism by strengthening our abduction muscles, pushing our knees apart.',
+        description: 'On the bad abductors machine, or with a band around your knees while sitting on a chair, we reject conservatism by strengthening our abduction muscles, pushing our knees apart.',
         substitutes: ['cable kickbacks']
     },
     seated_calf_raises: {
@@ -1321,7 +1321,7 @@ export const EXERCISES = {
         unit: 'reps', //vs duration    
         muscles: ['glutes'],
         description: 'With a band around your knees, squat to a 60 degree knee bend, and crab walk side to side, then dinosaur walk front to back.',
-        substitutes: ['bad girls']
+        substitutes: ['abductors']
     },
     //arms lol
     dumbbell_curls: {
