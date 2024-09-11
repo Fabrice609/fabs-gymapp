@@ -34,7 +34,6 @@ function updateMuscles(muscleGroup) {
 
     if (muscles.length > 2) {
       return
-      //don't want to train too many muslce (too over welming)
     }
 
     if (poison !== 'individual') {
