@@ -34,6 +34,7 @@ function updateMuscles(muscleGroup) {
 
     if (muscles.length > 2) {
       return
+      //don't want to train too many muscles (too over welming)
     }
 
     if (poison !== 'individual') {
@@ -79,6 +80,7 @@ function updateMuscles(muscleGroup) {
           <div className='bg-slate-950  border border-solid border-red-50 rounded-lg flex flex-col'>
         
             <button onClick={toggleModal} className='relative p-3 flex items-center justify-center'>
+                <p className='capitalize'>{muscles.length == 0 ? 'Select Muscle Groups': muscles.join(' ')}</p> 
                 <i className="fa-sharp absolute right-3 top-1/2 -translate-y-1/2 fa-regular fa-caret-down"></i>
               </button> 
          {showModal && (
